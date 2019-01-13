@@ -1,0 +1,257 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: arial;
+}
+header{
+	background-color: #3C5A98;
+	border-bottom:2px solid #133783;
+}
+.wrapper{
+	width:80%;
+	/*border:1px solid white;*/
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:17%;
+	float:left;
+	padding-top: 10px;
+	/*border:1px solid red;*/
+}
+.logo img{
+	width:100%;
+}
+.login{
+	padding-top: 16px;
+	width:70%;
+	float:right;
+	/*border:1px solid green;*/
+	overflow: hidden;
+	margin-right: 6px;
+
+}
+.login .email{
+	/*border:1px solid black;*/
+	font-size: 12px;
+	width:23%;
+	float:left;
+	margin-left: 330px;
+	color:white;
+	font-weight: 300;
+}
+.login .password{
+	/*border:1px solid black;*/
+	font-size: 12px;
+	width:31%;
+	float:right;
+	margin-left:15px;
+	color:white;
+	font-weight: 300;
+}
+.login .password button{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+	border:1px solid #29487d;
+	background-color: #4267b2;
+	float: right;
+	cursor: pointer;
+	 padding: 4px 6px;
+}
+.login .password button:hover{
+	background-color: transparent;
+}
+.login input{
+	width:100%;
+	border:1px solid #1D2A5B;
+	outline:none;
+	padding: 4px 0;
+
+
+}
+.login .password input{
+	width:70%;
+}
+.forget{
+	width:50%;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	margin-top: 40px;
+    margin-left: 250px;
+	text-align:right;
+}
+.forget a{
+	font-size:12px;
+	color:#9CABC5;
+	font-size:12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.forget a:hover{
+	text-decoration: underline;
+
+}
+
+#main{
+	background-color: #E0E4EF;
+}
+.connect{
+	/*border:1px solid red;*/
+	width:50%;
+	float:left;
+}
+.connect h2{
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 20px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.body_img{
+
+}
+img{
+	width:100%;
+}
+.signup_form{
+	/*border:1px solid red;*/
+	width:40%;
+	float: right;
+}
+.signup_form h2{
+	font-size: 36px;
+	color: #1d2129;
+	margin: 0;
+    margin-top: 18px;
+    font-weight: 600;
+}
+.signup_form h3{
+	color: #1d2129;
+    font-size: 19px;
+	margin: 0;
+    font-weight: 400;
+    padding: 10px 0;
+    padding-bottom: 12px;
+}
+.form_style{
+}
+.first_name, .surname, .form_email, .form_password{
+	font-size: 18px;
+	border: 1px solid #bdc7d8;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background: white;
+    font-size: 18px;
+    width: 377px;
+    margin-bottom:5px;
+    margin-bottom: 10px;
+    outline:none;
+}
+.first_name, .surname {
+	width: 172px;
+	padding: 8px 10px;
+	
+}
+.first_name{
+	margin-right:7px;
+}
+/*birthday*/
+.birthday{
+	/*border:1px solid black;*/
+	width:50%;
+	float:left;
+}
+label.label{
+	color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top:10px;
+    margin-bottom:5px;
+}
+select{
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    background: white;
+    outline:none;
+}
+select option:hover{
+	background: #1E90FF;
+
+ }
+.text{
+	padding-top: 26px;
+	font-size: 11px;
+    max-width: 150px;
+	float:left;
+	margin-left:10px;
+}
+.gender{
+	padding: 15px 0;
+}
+.notice{
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+.notice a{
+	text-decoration: none;
+}
+.notice a:hover{
+	text-decoration: underline;
+}
+.sign_up_button button{
+	 font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid #D9DDEB;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+	font-size: 19px;
+	outline:none;
+}
+.add p{
+	color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    width: 300px;
+}
+.add p a{
+	color: #365899;
+	text-decoration: none;
+ }
+ .add p a:hover{
+ 	text-decoration: underline;
+ }
+ footer{
+ 	background-color: #FFFFFF;
+ 	min-height: 200px;
+ }
+ .copyright a{
+	color: #3C5A98;
+	text-decoration:none;
+}
+
